@@ -17,7 +17,7 @@ CartONG.config.webmap = {
     weight: 1.5,
     opacity: 0.8,
     fill: true,
-    fillColor: '#00796B',
+    fillColor: '#FF0000',
     fillOpacity: 0.3
   }
 };
