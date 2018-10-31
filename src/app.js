@@ -62,7 +62,10 @@
         return CartONG.config.webmap.style;
       },
       pointToLayer: function (geoJsonPoint, latlng) {
-        var marker = L.marker(latlng)
+        const myIcon = L.icon({
+          iconUrl: '../pin.png'
+        });
+        var marker = L.marker(latlng, {icon: myIcon})
         marker.setOpacity(CartONG.config.webmap.style.opacity)
         return marker;
       },
